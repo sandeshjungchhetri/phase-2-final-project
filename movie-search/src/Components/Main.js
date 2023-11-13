@@ -44,3 +44,28 @@ const Main=()=>{
                 setUrl(url);
                 setSearch(" ");
             }
+        }
+        return(
+            <>
+                <div className="header">
+                    <nav>
+                        <ul>
+                            {
+                                arr.map((value,pos)=>{
+                                    return(
+                                        <li><a href="#" key={pos} name={value} onClick={(e)=>{getData(e.target.name)}}>{value}</a></li>
+                                    )
+                                })
+                            }
+                           
+                        </ul>
+                        </nav>
+                <form>
+                    <div className="search-btn">
+                        <input type="text" placeholder="Enter Movie Name" 
+                        className="inputText" onChange={(e)=>{setSearch(e.target.value)}} 
+                        value={search} onKeyPress={searchMovie}>
+                        </input>
+                        <button><i className="fas fa-search"></i></button>
+                    </div>
+                </form>

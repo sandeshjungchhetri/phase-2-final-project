@@ -40,3 +40,9 @@ nav ul li a::before{
     position: absolute;
     top:-10px;
     left:50%;
+    height: 3px;
+    width:0;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}

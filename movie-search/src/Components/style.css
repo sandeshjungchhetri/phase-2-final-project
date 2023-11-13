@@ -48,4 +48,8 @@ nav ul li a::before{
 }
 nav ul li a:hover:before{
     width:100%;
+}nav ul li a:focus{
+    background-color: var(--primary-color);
+    opacity: 0.2px;
+    border-radius: 20px;
 }

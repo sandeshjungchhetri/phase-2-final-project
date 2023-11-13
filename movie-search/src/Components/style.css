@@ -35,3 +35,8 @@ nav ul li a{
     padding: 0.2rem 0.6rem;
     position: relative;
 }
+nav ul li a::before{
+    content: "";
+    position: absolute;
+    top:-10px;
+    left:50%;

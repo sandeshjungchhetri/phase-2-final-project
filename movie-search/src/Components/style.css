@@ -4,3 +4,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    --primary-color:#bf6f13;
+    --secondary-color:#e88e27;
+}

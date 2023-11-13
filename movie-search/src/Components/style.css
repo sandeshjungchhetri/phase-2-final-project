@@ -82,3 +82,10 @@ nav ul li a:focus::before{
     outline: none;
     border: 1px solid var(--primary-color);
 }
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

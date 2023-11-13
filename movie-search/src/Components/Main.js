@@ -69,3 +69,17 @@ const Main=()=>{
                         <button><i className="fas fa-search"></i></button>
                     </div>
                 </form>
+                </div>
+            <div className="container">
+                {
+                    (movieData.length==0)?<p className="notfound">Not Found</p>: movieData.map((res,pos)=>{
+                        return(
+                            <Card info={res} key={pos}/>
+                        )
+                    })
+                }
+            </div>
+        </>
+    )
+}
+    }

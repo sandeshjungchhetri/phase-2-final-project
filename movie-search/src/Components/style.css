@@ -89,3 +89,13 @@ nav ul li a:focus::before{
     justify-content: center;
     flex-wrap: wrap;
 }
+.movie{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    width: 250px;
+    background-color: var(--secondary-color);
+    margin: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}

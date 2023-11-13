@@ -11,3 +11,13 @@ return(
                         <h4 className="title">{movie.info.title}</h4>
                         <p className="rating">{movie.info.vote_average}</p>
             </div>
+            <div className="overview">
+                        <h1>overview</h1>
+                        {movie.info.overview}
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+export default Card;

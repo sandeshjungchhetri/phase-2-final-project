@@ -8,3 +8,6 @@
     --primary-color:#bf6f13;
     --secondary-color:#e88e27;
 }
+body{
+    background-color: var(--primary-color);
+}

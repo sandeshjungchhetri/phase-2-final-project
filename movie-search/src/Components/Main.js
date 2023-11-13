@@ -37,3 +37,10 @@ const Main=()=>{
             url=base_url+"/discover/movie?with_genres=35&with_cast=23659&sort_by=revenue.desc"+API_key;
         }
         setUrl(url);
+        const searchMovie=(evt)=>{
+            if(evt.key=="Enter")
+            {
+                url=base_url+"/search/movie?api_key=db95773a7fb212ba790d71f6adac0e7e&query="+search;
+                setUrl(url);
+                setSearch(" ");
+            }

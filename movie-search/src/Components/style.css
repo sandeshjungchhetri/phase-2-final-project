@@ -53,3 +53,9 @@ nav ul li a:hover:before{
     opacity: 0.2px;
     border-radius: 20px;
 }
+nav ul li a:focus::before{
+    width: 0%;
+}
+.search-btn{
+    display: flex;
+}

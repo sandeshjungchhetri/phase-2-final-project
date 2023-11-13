@@ -11,3 +11,8 @@
 body{
     background-color: var(--primary-color);
 }
+header{
+    background-color: var(--secondary-color);
+    height: 100px;
+    width: 100%;
+    display: flex;

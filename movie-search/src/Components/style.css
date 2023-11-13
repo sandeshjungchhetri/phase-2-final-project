@@ -116,3 +116,8 @@ nav ul li a:focus::before{
     align-items: center;
     justify-content: space-around;
 }
+.movie-details .title{
+    width: 160px;
+    font-size: 15px;
+    text-align: center;
+}
